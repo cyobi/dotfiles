@@ -10,6 +10,15 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " neobundle自体をneobundleで管理
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+" solarized
+NeoBundle 'altercation/vim-colors-solarized'
+
+" カラースキーマ
+NeoBundle 'croaker/mustang-vim'
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'tomasr/molokai'
+NeoBundle 'Shougo/unite.vim'
+
 " NERDTreeを設定
 NeoBundle 'scrooloose/nerdtree'
 
@@ -101,6 +110,9 @@ set smartindent
 "emmetの設定
 "ctrl + e で展開
 let g:user_emmet_expandabbr_key = '<c-e>'
+
+" カラースキーマの設定
+colorscheme molokai 
 
 set clipboard+=unnamed
 

@@ -1,1 +1,0 @@
-/Users/kotaro/dotfiles/.vim
